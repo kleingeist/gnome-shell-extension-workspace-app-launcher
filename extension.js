@@ -17,10 +17,6 @@ function enable() {
 			// start a new instance/window on the current workspace if the CTRL Key is pressed
 			// or there is no instance on the current workspace
 			let modifiers = Shell.get_event_state(event);
-			/*if (this.app.state == Shell.AppState.RUNNING
-				&& ( modifiers & Clutter.ModifierType.CONTROL_MASK 
-				  || !this.app.is_on_workspace(global.screen.get_active_workspace()) )) { 
-			*/
             if (this.app.state == Shell.AppState.RUNNING
                 && ( (modifiers & Clutter.ModifierType.CONTROL_MASK)
                      || !this.app.is_on_workspace(global.screen.get_active_workspace())
