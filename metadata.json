@@ -1,0 +1,6 @@
+{
+	"shell-version": ["3.2.0"], 
+	"uuid": "workspace_app_launcher@lab.ae35.de", 
+	"name": "Workspace Related App Launcher", 
+	"description": "Starts new App window if there is none on the current workspace"
+}
