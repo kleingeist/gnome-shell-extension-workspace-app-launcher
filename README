@@ -1,0 +1,7 @@
+# Workspace Related App Launcher
+
+This gnome-shell extension overwrites the default app* launching behaviour. 
+If you are on a workspace, where no instance of the requested app is open,
+it will start a new one (if possible) instead of switching to another workspace.
+
+Tested on Gnome 3.2.0
