@@ -2,6 +2,12 @@ const AppDisplay = imports.ui.appDisplay;
 const Shell = imports.gi.Shell;
 const Clutter = imports.gi.Clutter;
 
+/**
+ * TODO: 
+ * - only works on clicks. if the app is selected by keyboard it wont
+ * - black/whitelists?
+ * - special key (Shift?) to go for instance on another workspace? 
+ */
 function init() {
 }
 
